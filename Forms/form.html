@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Form</h1>
+
+<form action="/server.php" method="post">
+
+<label for="fn">Full Name:</label>
+<input type="text" id="fn" name="fn" placeholder="Enter you name" >
+<br><br>
+<label for="ps">Password:</label>
+<input type="password" id="ps" name="ps" placeholder="Enter you password" >
+
+<br><br>
+<label for="em">Email:</label>
+<input type="email" id="em" name="pems" placeholder="Enter you email" >
+
+<br><br>
+<label for="ag">Age:</label>
+<input type="number" id="ag" name="ag" min="1" max="100" >
+
+<br><br>
+<label for="db">DOB:</label>
+<input type="date" id="db" name="db" >
+
+<br><br>
+Gender:<br>
+<label for="m">Male:</label>
+<input type="radio" id="m" name="gender" >
+<br>
+<label for="fm">Female:</label>
+<input type="radio" id="fm" name="gender" >
+
+
+<br><br>
+Languages:<br>
+<label for="en">Eng:</label>
+<input type="checkbox" id="en" name="en" >
+<br>
+<label for="h">Hindi:</label>
+<input type="checkbox" id="h" name="h" >
+
+
+<br><br>
+<label for="ct">Country:</label>
+<select id="ct" name="ct">
+  <option id="in" name="in" >India</option>
+  <option id="us" name="us" >USA</option>
+</select>
+
+
+
+<br><br>
+<label for="cv">upload resume:</label>
+<input type="file" id="cv" name="cv" >
+
+
+<br><br>
+<label for="ex">Experience:</label>
+<input type="range" id="ex" name="ex" min="0" max="20" step="20" >
+
+
+<br><br>
+<label for="cl">clr:</label>
+<input type="color" id="cl" name="cl">
+
+
+<br><br>
+<label for="tm">time:</label>
+<input type="time" id="tm" name="tm" >
+
+
+<br><br>
+<input type="submit" value="click here">
+
+</form>
+
+</body>
+</html>
+

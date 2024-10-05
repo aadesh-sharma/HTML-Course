@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Assignment</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="/submit">
+        
+        <!-- Text Input -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+        
+        <!-- Password Input -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+        
+        <!-- Email Input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        
+        <!-- Number Input -->
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="100"><br><br>
+        
+        <!-- Date Input -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+        
+        <!-- Radio Button -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <!-- Checkbox -->
+        <label>Languages Known:</label><br>
+        <input type="checkbox" id="english" name="language" value="english">
+        <label for="english">English</label><br>
+        <input type="checkbox" id="hindi" name="language" value="hindi">
+        <label for="hindi">Hindi</label><br>
+        
+        <!-- Dropdown (Select) -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="usa">USA</option>
+        </select><br><br>
+        
+        <!-- File Input -->
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume"><br><br>
+        
+        <!-- Range Input -->
+        <label for="experience">Experience (Years):</label>
+        <input type="range" id="experience" name="experience" min="0" max="30" step="1"><br><br>
+        
+        <!-- Color Picker -->
+        <label for="favcolor">Pick your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor"><br><br>
+        
+        <!-- Time Input -->
+        <label for="meeting-time">Meeting Time:</label>
+        <input type="time" id="meeting-time" name="meeting-time"><br><br>
+        
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
